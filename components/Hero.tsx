@@ -2,14 +2,14 @@
 
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
-import { useLocale } from 'next-intl';
+import { useRouter } from '@/routing';
 import { MessageCircle, ArrowRight } from 'lucide-react';
 import { siteConfig } from '@/site.config';
 import { analytics } from '@/lib/utils';
 
 export function Hero() {
   const t = useTranslations();
-  const locale = useLocale();
+  const router = useRouter();
 
   const handleWhatsAppClick = () => {
     analytics.track('cta_whatsapp_click', { 
@@ -18,9 +18,18 @@ export function Hero() {
     });
   };
 
+  const handleContactClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.preventDefault();
+    analytics.track('hero_contact_click', { 
+      page: '/',
+      section: 'hero' 
+    });
+    router.push('/contacto');
+  };
+
   return (
     <section className="relative overflow-hidden text-white">
-      <div className="mx-auto px-4 sm:px-6 md:px-12 lg:px-[60px] py-16 sm:py-24 md:py-[140px]" style={{ maxWidth: '1000px' }}>
+      <div className="relative z-10 mx-auto px-4 sm:px-6 md:px-12 lg:px-[60px] py-16 sm:py-24 md:py-[140px]" style={{ maxWidth: '1000px' }}>
         <div className="text-center">
           {/* Nombre del negocio - ELYON Business Consulting */}
           <motion.h1
@@ -49,20 +58,21 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="mt-8 sm:mt-10 md:mt-12 lg:mt-16"
           >
-            <a
-              href={`/${locale}/contacto`}
-              className="inline-flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 px-6 sm:px-8 md:px-10 py-3 sm:py-4 md:py-5 bg-white text-black font-semibold rounded-lg hover:bg-gray-100 transition-all duration-300 text-base sm:text-lg shadow-2xl hover:shadow-white/20 hover:scale-105"
+            <button
+              onClick={handleContactClick}
+              type="button"
+              className="inline-flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 px-6 sm:px-8 md:px-10 py-3 sm:py-4 md:py-5 bg-white text-black font-semibold rounded-lg hover:bg-gray-100 transition-all duration-300 text-base sm:text-lg shadow-2xl hover:shadow-white/20 hover:scale-105 cursor-pointer"
             >
               <span>{t('hero.cta')}</span>
               <ArrowRight className="w-4 sm:w-5 h-4 sm:h-5" />
-            </a>
+            </button>
           </motion.div>
         </div>
       </div>
 
-      {/* Decorative gradient orbs */}
-      <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-brand-500 rounded-full mix-blend-screen filter blur-3xl opacity-10 animate-blob" />
-      <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-brand-400 rounded-full mix-blend-screen filter blur-3xl opacity-10 animate-blob animation-delay-2000" />
+  {/* Decorative gradient orbs (non-interactive) */}
+  <div className="pointer-events-none absolute top-0 right-0 w-[500px] h-[500px] bg-brand-500 rounded-full mix-blend-screen filter blur-3xl opacity-10 animate-blob z-0" />
+  <div className="pointer-events-none absolute bottom-0 left-0 w-[500px] h-[500px] bg-brand-400 rounded-full mix-blend-screen filter blur-3xl opacity-10 animate-blob animation-delay-2000 z-0" />
     </section>
   );
 }

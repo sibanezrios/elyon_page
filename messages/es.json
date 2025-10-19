@@ -89,6 +89,8 @@
         "tracking": "Monitoreo de interacciones",
         "analysis": "Análisis de respuestas"
       },
+      "capabilitiesLabel": "Capacidades",
+      "pipelineLabel": "Pipeline de Procesamiento",
       "features": {
         "document": "Document OCR",
         "voice": "Voice transcription",

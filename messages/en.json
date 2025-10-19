@@ -88,6 +88,8 @@
         "tracking": "Interaction monitoring",
         "analysis": "Response analysis"
       },
+      "capabilitiesLabel": "Capabilities",
+      "pipelineLabel": "Processing Pipeline",
       "features": {
         "document": "Document OCR",
         "voice": "Voice transcription",

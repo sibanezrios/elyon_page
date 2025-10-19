@@ -70,11 +70,9 @@ export function Hero() {
         </div>
       </div>
 
-  {/* Decorative gradient orbs (non-interactive) */}
-  <div className="pointer-events-none absolute top-0 right-0 w-[280px] h-[280px] sm:w-[420px] sm:h-[420px] md:w-[500px] md:h-[500px] bg-brand-500 rounded-full mix-blend-normal sm:mix-blend-screen filter blur-3xl opacity-5 sm:opacity-10 animate-blob z-0" />
-  <div className="pointer-events-none absolute bottom-0 left-0 w-[280px] h-[280px] sm:w-[420px] sm:h-[420px] md:w-[500px] md:h-[500px] bg-brand-400 rounded-full mix-blend-normal sm:mix-blend-screen filter blur-3xl opacity-5 sm:opacity-10 animate-blob animation-delay-2000 z-0" />
-  {/* Mobile darkening overlay to match desktop tone */}
-  <div className="pointer-events-none absolute inset-0 bg-black/40 sm:bg-black/30 md:bg-transparent z-0" />
+  {/* Decorative gradient orbs (non-interactive) - unified across breakpoints */}
+  <div className="pointer-events-none absolute top-0 right-0 w-[500px] h-[500px] bg-brand-500 rounded-full mix-blend-screen filter blur-3xl opacity-10 animate-blob z-0" />
+  <div className="pointer-events-none absolute bottom-0 left-0 w-[500px] h-[500px] bg-brand-400 rounded-full mix-blend-screen filter blur-3xl opacity-10 animate-blob animation-delay-2000 z-0" />
     </section>
   );
 }

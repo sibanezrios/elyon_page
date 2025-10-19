@@ -31,7 +31,7 @@ export default function ContactPage() {
   return (
     <>
       <Header />
-      <main className="min-h-screen pt-20 pb-20">
+  <main className="min-h-screen pt-28 sm:pt-32 md:pt-36 pb-24">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

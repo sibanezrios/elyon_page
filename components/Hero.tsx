@@ -20,14 +20,14 @@ export function Hero() {
 
   return (
     <section className="relative overflow-hidden text-white">
-      <div className="mx-auto px-4 sm:px-8 md:px-12 lg:px-[60px] py-20 sm:py-28 md:py-[140px]" style={{ maxWidth: '1000px' }}>
+      <div className="mx-auto px-4 sm:px-6 md:px-12 lg:px-[60px] py-16 sm:py-24 md:py-[140px]" style={{ maxWidth: '1000px' }}>
         <div className="text-center">
           {/* Nombre del negocio - ELYON Business Consulting */}
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-5xl sm:text-6xl md:text-[64px] font-extrabold text-white leading-tight tracking-tight"
+            className="text-4xl sm:text-5xl md:text-6xl lg:text-[64px] font-extrabold text-white leading-tight tracking-tight"
           >
             {t('hero.brand')}
           </motion.h1>
@@ -37,7 +37,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-xl sm:text-2xl md:text-[28px] font-light text-gray-300 mt-6 sm:mt-8 md:mt-10 leading-relaxed text-balance max-w-[800px] mx-auto"
+            className="text-base sm:text-lg md:text-xl lg:text-[28px] font-light text-gray-300 mt-4 sm:mt-6 md:mt-8 lg:mt-10 leading-relaxed text-balance max-w-[800px] mx-auto"
           >
             {t('hero.subtitle')}
           </motion.h2>
@@ -47,14 +47,14 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="mt-12 md:mt-16"
+            className="mt-8 sm:mt-10 md:mt-12 lg:mt-16"
           >
             <a
               href={`/${locale}/contacto`}
-              className="inline-flex items-center space-x-3 px-10 py-5 bg-white text-black font-semibold rounded-lg hover:bg-gray-100 transition-all duration-300 text-lg shadow-2xl hover:shadow-white/20 hover:scale-105"
+              className="inline-flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-3 px-6 sm:px-8 md:px-10 py-3 sm:py-4 md:py-5 bg-white text-black font-semibold rounded-lg hover:bg-gray-100 transition-all duration-300 text-base sm:text-lg shadow-2xl hover:shadow-white/20 hover:scale-105"
             >
               <span>{t('hero.cta')}</span>
-              <ArrowRight className="w-5 h-5" />
+              <ArrowRight className="w-4 sm:w-5 h-4 sm:h-5" />
             </a>
           </motion.div>
         </div>

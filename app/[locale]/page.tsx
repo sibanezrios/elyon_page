@@ -19,7 +19,7 @@ export default function HomePage() {
   return (
     <>
       <Header />
-      <main>
+      <main className="pt-14 sm:pt-16">
         <Hero />
         
         {/* Separador sutil */}
@@ -70,10 +70,10 @@ export default function HomePage() {
               {t('section.demos')}
             </h2>
             <div className="space-y-12">
-              <div className="bg-black/30 rounded-xl shadow-lg border border-brand-500/30 p-8 md:p-10 backdrop-blur-sm hover:shadow-2xl hover:shadow-brand-500/20 transition-all hover:border-brand-500/60">
+              <div className="bg-black/30 rounded-xl shadow-lg border border-brand-500/30 p-4 sm:p-6 md:p-10 backdrop-blur-sm hover:shadow-2xl hover:shadow-brand-500/20 transition-all hover:border-brand-500/60 overflow-hidden">
                 <DemoEmail />
               </div>
-              <div className="bg-black/30 rounded-xl shadow-lg border border-brand-500/30 p-8 md:p-10 backdrop-blur-sm hover:shadow-2xl hover:shadow-brand-500/20 transition-all hover:border-brand-500/60">
+              <div className="bg-black/30 rounded-xl shadow-lg border border-brand-500/30 p-4 sm:p-6 md:p-10 backdrop-blur-sm hover:shadow-2xl hover:shadow-brand-500/20 transition-all hover:border-brand-500/60 overflow-hidden">
                 <DemoTelegram />
               </div>
             </div>

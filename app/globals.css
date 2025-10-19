@@ -42,11 +42,15 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 body {
   background: linear-gradient(180deg, #000000 0%, #0a2e2e 25%, #051a1a 50%, #0a2e2e 75%, #000000 100%);
   background-attachment: fixed;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 @media (prefers-reduced-motion: reduce) {

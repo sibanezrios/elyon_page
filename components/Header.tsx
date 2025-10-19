@@ -35,86 +35,96 @@ export function Header() {
   ];
 
   return (
-    <header className="sticky top-0 z-40 w-full bg-black/80 backdrop-blur-md border-b border-gray-800">
-      <div className="container mx-auto px-4">
-        <div className="flex h-16 items-center justify-between">
-          {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
-            <span className="text-2xl font-bold text-white">
-              ELYON
-            </span>
-          </Link>
+    <>
+      {/* Overlay blur cuando menú está abierto */}
+      {isMenuOpen && (
+        <div 
+          className="fixed inset-0 z-40 bg-black/50 backdrop-blur-sm md:hidden"
+          onClick={() => setIsMenuOpen(false)}
+        />
+      )}
+      
+      <header className="fixed top-0 left-0 right-0 z-50 bg-black/95 backdrop-blur-md border-b border-brand-500/30 shadow-lg">
+        <div className="container mx-auto px-4">
+          <div className="flex h-14 sm:h-16 items-center justify-between">
+            {/* Logo */}
+            <Link href="/" className="flex items-center space-x-2">
+              <span className="text-2xl font-bold text-white">
+                ELYON
+              </span>
+            </Link>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-6">
-            {navItems.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className="text-sm font-medium text-gray-300 hover:text-brand-400 transition-colors"
-              >
-                {item.label}
-              </Link>
-            ))}
-          </nav>
-
-          {/* Right side: Social + Language Toggle */}
-          <div className="hidden md:flex items-center space-x-4">
-            <SocialLinks compact />
-            
-            <button
-              onClick={toggleLocale}
-              className="flex items-center space-x-1 text-sm font-medium text-gray-300 hover:text-brand-400 transition-colors focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2 focus:ring-offset-black rounded px-2 py-1"
-              aria-label="Cambiar idioma"
-            >
-              <Globe className="w-4 h-4" />
-              <span>{locale.toUpperCase()}</span>
-            </button>
-          </div>
-
-          {/* Mobile Menu Button */}
-          <button
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden p-2 text-gray-300 hover:text-brand-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2 focus:ring-offset-black rounded"
-            aria-label={isMenuOpen ? 'Cerrar menú' : 'Abrir menú'}
-          >
-            {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
-        </div>
-
-        {/* Mobile Menu */}
-        {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-gray-800">
-            <nav className="flex flex-col space-y-3">
+            {/* Desktop Navigation */}
+            <nav className="hidden md:flex items-center space-x-6">
               {navItems.map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="text-base font-medium text-gray-300 hover:text-brand-400 transition-colors py-2"
-                  onClick={() => setIsMenuOpen(false)}
+                  className="text-sm font-medium text-gray-300 hover:text-brand-400 transition-colors"
                 >
                   {item.label}
                 </Link>
               ))}
-              
-              <div className="pt-4 border-t border-gray-800 space-y-3">
-                <SocialLinks />
-                
-                <button
-                  onClick={() => {
-                    toggleLocale();
-                    setIsMenuOpen(false);
-                  }}
-                  className="flex items-center space-x-2 text-base font-medium text-gray-300 hover:text-brand-400 transition-colors py-2 w-full"
-                >
-                  <Globe className="w-5 h-5" />
-                  <span>{locale === 'es' ? 'English' : 'Español'}</span>
-                </button>
-              </div>
             </nav>
+
+            {/* Right side: Social + Language Toggle */}
+            <div className="hidden md:flex items-center space-x-4">
+              <SocialLinks compact />
+              
+              <button
+                onClick={toggleLocale}
+                className="flex items-center space-x-1 text-sm font-medium text-gray-300 hover:text-brand-400 transition-colors focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2 focus:ring-offset-black rounded px-2 py-1"
+                aria-label="Cambiar idioma"
+              >
+                <Globe className="w-4 h-4" />
+                <span>{locale.toUpperCase()}</span>
+              </button>
+            </div>
+
+            {/* Mobile Menu Button */}
+            <button
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              className="md:hidden p-2 text-gray-300 hover:text-brand-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2 focus:ring-offset-black rounded"
+              aria-label={isMenuOpen ? 'Cerrar menú' : 'Abrir menú'}
+            >
+              {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            </button>
           </div>
-        )}
-      </div>
-    </header>
+
+          {/* Mobile Menu */}
+          {isMenuOpen && (
+            <div className="md:hidden py-4 border-t border-brand-500/30 bg-black/80">
+              <nav className="flex flex-col space-y-3">
+                {navItems.map((item) => (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    className="text-base font-medium text-gray-300 hover:text-brand-400 transition-colors py-2"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {item.label}
+                  </Link>
+                ))}
+                
+                <div className="pt-4 border-t border-brand-500/30 space-y-3">
+                  <SocialLinks />
+                  
+                  <button
+                    onClick={() => {
+                      toggleLocale();
+                      setIsMenuOpen(false);
+                    }}
+                    className="flex items-center space-x-2 text-base font-medium text-gray-300 hover:text-brand-400 transition-colors py-2 w-full"
+                  >
+                    <Globe className="w-5 h-5" />
+                    <span>{locale === 'es' ? 'English' : 'Español'}</span>
+                  </button>
+                </div>
+              </nav>
+            </div>
+          )}
+        </div>
+      </header>
+    </>
   );
 }

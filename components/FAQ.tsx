@@ -18,7 +18,7 @@ export function FAQ() {
 
   return (
     <div className="max-w-3xl mx-auto">
-      <div className="space-y-4">
+      <div className="space-y-3 md:space-y-4">
         {faqs.map((faq, index) => (
           <div
             key={faq.key}
@@ -26,16 +26,16 @@ export function FAQ() {
           >
             <button
               onClick={() => setOpenIndex(openIndex === index ? null : index)}
-              className="w-full flex items-center justify-between p-6 text-left hover:bg-gray-800/50 transition-colors focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-inset"
+              className="w-full flex items-center justify-between p-4 sm:p-5 md:p-6 text-left hover:bg-gray-800/50 transition-colors focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-inset"
               aria-expanded={openIndex === index}
             >
-              <span className="text-lg font-semibold text-white pr-8">
+              <span className="text-base sm:text-lg md:text-lg font-semibold text-white pr-6 sm:pr-8">
                 {faq.question}
               </span>
               {openIndex === index ? (
-                <ChevronUp className="w-5 h-5 text-brand-400 flex-shrink-0" />
+                <ChevronUp className="w-4 h-4 sm:w-5 sm:h-5 text-brand-400 flex-shrink-0" />
               ) : (
-                <ChevronDown className="w-5 h-5 text-gray-500 flex-shrink-0" />
+                <ChevronDown className="w-4 h-4 sm:w-5 sm:h-5 text-gray-500 flex-shrink-0" />
               )}
             </button>
             
@@ -47,7 +47,7 @@ export function FAQ() {
                   exit={{ height: 0, opacity: 0 }}
                   transition={{ duration: 0.3 }}
                 >
-                  <div className="px-6 pb-6 text-gray-400 leading-relaxed">
+                  <div className="px-4 sm:px-5 md:px-6 pb-4 sm:pb-5 md:pb-6 text-sm sm:text-base md:text-base text-gray-400 leading-relaxed">
                     {faq.answer}
                   </div>
                 </motion.div>

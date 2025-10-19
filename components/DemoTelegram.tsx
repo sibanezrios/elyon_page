@@ -105,13 +105,6 @@ export function DemoTelegram() {
           <MessageCircle className="w-5 h-5" />
           <span>{t('cta.requestDemo')}</span>
         </a>
-        
-        <a
-          href="/demos/asistente-telegram"
-          className="inline-flex items-center justify-center space-x-2 px-6 py-3 bg-brand-600 hover:bg-brand-700 text-white font-semibold rounded-lg transition-colors"
-        >
-          <span>{t('cta.tryDemo')}</span>
-        </a>
       </div>
     </div>
   );

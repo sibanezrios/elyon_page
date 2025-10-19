@@ -107,13 +107,6 @@ export function DemoEmail() {
           <MessageCircle className="w-5 h-5" />
           <span>{t('cta.requestDemo')}</span>
         </a>
-        
-        <a
-          href="/demos/agente-email"
-          className="inline-flex items-center justify-center space-x-2 px-6 py-3 bg-brand-600 hover:bg-brand-700 text-white font-semibold rounded-lg transition-colors"
-        >
-          <span>{t('cta.seeCases')}</span>
-        </a>
       </div>
     </div>
   );

@@ -1,0 +1,228 @@
+{
+  "welcome": {
+    "title": "Are you ready to mature your business globally?",
+    "primary": "Meet us",
+    "secondary": "See demos"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "solutions": "Solutions",
+    "demos": "Demos",
+    "cases": "Cases",
+    "resources": "Resources",
+    "contact": "Contact"
+  },
+  "cta": {
+    "whatsapp": "Request demo",
+    "requestDemo": "Request demo via WhatsApp",
+    "talkToUs": "Talk to Elyon",
+    "seeCases": "See use cases",
+    "tryDemo": "Try demo flow"
+  },
+  "hero": {
+    "title": "Intelligent, sustainable, and global ecosystems",
+    "subtitle": "Elyon integrates AI, automation, and digital marketing to accelerate business maturation and turn it into a sustainable competitive advantage",
+    "description": "We transform companies through cutting-edge technology and measurable strategies",
+    "brand": "Elyon Business Consulting",
+    "cta": "Talk to Elyon"
+  },
+  "section": {
+    "offerings": "What We Offer",
+    "differentiators": "Why Elyon?",
+    "demos": "Demos in Action",
+    "purpose": "Our Purpose",
+    "testimonials": "What our clients say",
+    "faq": "Frequently Asked Questions"
+  },
+  "differentiators": {
+    "strategy": {
+      "title": "Strategy + Operable Tools",
+      "description": "We don't just consult, we implement solutions that work from day one"
+    },
+    "maturity": {
+      "title": "Continuous Digital Maturation",
+      "description": "Long-term support to evolve alongside your business"
+    },
+    "metrics": {
+      "title": "Metrics-Driven Decisions",
+      "description": "Advanced analytics and real-time dashboards for informed decision-making"
+    }
+  },
+  "services": {
+    "ai": {
+      "title": "Custom AI Agents",
+      "description": "Personalized intelligent assistants to automate critical processes"
+    },
+    "automation": {
+      "title": "Orchestration & Automation",
+      "description": "n8n, RPA, and workflows that optimize repetitive operations"
+    },
+    "analytics": {
+      "title": "Analytics & Dashboards",
+      "description": "Data visualization that drives strategic decisions"
+    },
+    "demos": {
+      "title": "Functional Demos",
+      "description": "Try our solutions before investing"
+    }
+  },
+  "demo": {
+    "email": {
+      "title": "Multi-channel AI Agent",
+      "description": "Automatically replies and sends mass emails. Trained for collections, inquiries and automatic responses, but adaptable to any business context.",
+      "descriptionFull": "Capable of sending mass emails, SMS, WhatsApp, Telegram and managing social media interactions.",
+      "demoOnly": "In this demo you'll see only email",
+      "adaptable": "but the agent is prepared to operate on all channels, redirecting to payment portal or access as needed.",
+      "capabilities": {
+        "send": "Smart mass mailing",
+        "reply": "Contextual auto-reply",
+        "training": "Custom training",
+        "tracking": "Real-time tracking",
+        "analysis": "Sentiment analysis"
+      },
+      "capabilitiesLong": {
+        "send": "Mass email sending",
+        "reply": "Contextual automatic reply",
+        "training": "Custom learning",
+        "tracking": "Interaction monitoring",
+        "analysis": "Response analysis"
+      },
+      "features": {
+        "document": "Document OCR",
+        "voice": "Voice transcription",
+        "calendar": "Calendar integration",
+        "email": "Email sending",
+        "stats": "Statistics generation"
+      },
+      "pipeline": {
+        "ingest": "Ingest",
+        "classify": "Classification",
+        "generate": "Generation",
+        "send": "Send",
+        "track": "Tracking"
+      },
+      "pipelineDesc": {
+        "ingest": "Data reception",
+        "classify": "Smart classification",
+        "generate": "Response generation",
+        "send": "Communication delivery",
+        "track": "Result tracking"
+      },
+      "states": {
+        "queued": "Queued",
+        "sent": "Sent",
+        "replied": "Replied",
+        "error": "Error"
+      }
+    },
+    "telegram": {
+      "title": "Telegram Assistant",
+      "description": "User sends invoice photo or voice note; assistant extracts data, schedules in calendar, sends emails, and generates statistics.",
+      "capabilitiesLabel": "Capabilities",
+      "pipelineLabel": "Processing Pipeline",
+      "features": {
+        "ocr": "Document OCR",
+        "voice": "Voice transcription",
+        "calendar": "Calendar integration",
+        "email": "Email sending",
+        "stats": "Statistics generation"
+      },
+      "pipeline": {
+        "input": "OCR/ASR",
+        "parse": "Parsing",
+        "rules": "Rules",
+        "integration": "Integration",
+        "report": "Report"
+      }
+    }
+  },
+  "about": {
+    "title": "Who are we?",
+    "description": "Elyon is a strategic consulting partner that integrates artificial intelligence, automation and digital marketing in a framework of continuous business maturation, transforming each project into a sustainable competitive advantage"
+  },
+  "purpose": {
+    "title": "Our Pillars",
+    "items": {
+      "mission": {
+        "title": "Our Higher Purpose",
+        "description": "Transform businesses into intelligent, sustainable, and global ecosystems."
+      },
+      "approach": {
+        "title": "Our Approach",
+        "description": "Generate complete evolution, beyond the digital, towards sustainability and global scalability."
+      },
+      "maturity": {
+        "title": "Business Maturation",
+        "description": "It is a continuous journey, not a specific project."
+      },
+      "partner": {
+        "title": "Elyon is Your Partner",
+        "description": "Strategic long-term partner in comprehensive growth."
+      }
+    }
+  },
+  "valueProposition": {
+    "intro": "We don't just digitalize processes:",
+    "highlight": "we revolutionize business models",
+    "description": "At Elyon we integrate strategic AI, intelligent automation and high-impact marketing to turn your company into a sustainable growth machine and measurable results.",
+    "ai": {
+      "title": "Strategic AI",
+      "description": "We implement artificial intelligence that not only automates, but also optimizes strategic decisions and generates actionable insights for your business."
+    },
+    "automation": {
+      "title": "Intelligent Automation",
+      "description": "We free your team from repetitive tasks with systems that learn and improve continuously, exponentially increasing operational efficiency."
+    },
+    "marketing": {
+      "title": "High-impact Marketing",
+      "description": "Data-driven strategies that connect with your exact audience at the right moment, converting leads into high-value customers."
+    },
+    "conclusion": "We design the future of your business with cutting-edge technology and strategies that generate real competitive advantage."
+  },
+  "faq": {
+    "q1": {
+      "question": "What makes Elyon different?",
+      "answer": "We combine strategic consulting with real technological implementation. We don't just diagnose, we execute."
+    },
+    "q2": {
+      "question": "How long does it take to implement a solution?",
+      "answer": "It depends on complexity, but our demos can be operational in 2-4 weeks."
+    },
+    "q3": {
+      "question": "Do I need technical knowledge?",
+      "answer": "No. We handle the entire technical process and train your team."
+    },
+    "q4": {
+      "question": "Do you offer post-implementation support?",
+      "answer": "Yes, we offer continuous support and updates as your needs evolve."
+    }
+  },
+  "footer": {
+    "brand": "ELYON",
+    "subtitle": "Business Consulting",
+    "description": "Elyon integrates AI, automation, and digital marketing to accelerate business maturation and turn it into a sustainable competitive advantage",
+    "solutions": "Solutions",
+    "about": "About",
+    "solutionsLabel": "Solutions",
+    "demosLabel": "Demos",
+    "aboutLabel": "About",
+    "resourcesLabel": "Resources",
+    "follow": "Follow us",
+    "copyright": "© 2025 Elyon Business Consulting. All rights reserved.",
+    "legal": "Legal Notice",
+    "privacy": "Privacy"
+  },
+  "contact": {
+    "title": "Let's get in touch",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Send message",
+    "orContact": "Choose your preferred way to contact us:",
+    "whatsappLabel": "Contact us",
+    "emailLabel": "Send email",
+    "success": "Message sent! We'll contact you soon.",
+    "error": "Error sending. Try again or use WhatsApp."
+  }
+}

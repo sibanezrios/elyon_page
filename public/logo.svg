@@ -1,0 +1,17 @@
+<svg width="600" height="200" viewBox="0 0 600 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Logo E de ELYON -->
+  <g id="logo-mark">
+    <path d="M90 50 C90 50, 60 60, 50 90 C40 120, 50 140, 70 150 L90 150 L90 130 L75 130 C70 125, 68 115, 70 105 C72 95, 78 90, 85 88 L85 70 L70 70 C65 72, 62 75, 60 80 L90 80 L90 50 Z" fill="#14b8a6"/>
+    <path d="M110 50 L110 150 L130 150 C145 145, 155 135, 155 120 C155 105, 145 95, 130 90 L130 70 C140 72, 148 80, 152 90 L152 50 L110 50 Z" fill="#2dd4bf" opacity="0.8"/>
+  </g>
+  
+  <!-- Texto ELYON -->
+  <g id="text" fill="white">
+    <text x="180" y="120" font-family="Arial, sans-serif" font-size="60" font-weight="bold" letter-spacing="2">ELYON</text>
+  </g>
+  
+  <!-- Subtítulo BUSINESS CONSULTING -->
+  <g id="subtitle" fill="#94a3b8">
+    <text x="380" y="135" font-family="Arial, sans-serif" font-size="14" font-weight="normal" letter-spacing="3">BUSINESS CONSULTING</text>
+  </g>
+</svg>

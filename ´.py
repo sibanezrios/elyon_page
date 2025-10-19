@@ -1,0 +1,1 @@
+# Este archivo será reemplazado por el proyecto Next.js de ELYON Business Consulting

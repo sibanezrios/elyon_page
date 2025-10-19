@@ -1,0 +1,229 @@
+{
+  "welcome": {
+    "title": "¿Estás listo para madurar tu empresa globalmente?",
+    "primary": "Conócenos",
+    "secondary": "Ver demos"
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "about_us": "Acerca de nosotros",
+    "solutions": "Soluciones",
+    "demos": "Demostraciones",
+    "cases": "Casos",
+    "resources": "Recursos",
+    "contact": "Contacto"
+  },
+  "cta": {
+    "whatsapp": "Solicitar demo",
+    "requestDemo": "Solicitar demo por WhatsApp",
+    "talkToUs": "Contactanos",
+    "seeCases": "Ver casos de uso",
+    "tryDemo": "Probar flujo (demo)"
+  },
+  "hero": {
+    "title": "Ecosistemas inteligentes, sostenibles y globales",
+    "subtitle": "Elyon integra IA, automatización y marketing digital para acelerar la maduración empresarial y convertirla en ventaja competitiva sostenible",
+    "description": "Transformamos empresas mediante tecnología de vanguardia y estrategias medibles",
+    "brand": "Elyon Business Consulting",
+    "cta": "Hablar con Elyon"
+  },
+  "section": {
+    "offerings": "¿Qué ofrecemos?",
+    "differentiators": "¿Por qué Elyon?",
+    "demos": "Demos en acción",
+    "purpose": "Nuestro propósito",
+    "testimonials": "Lo que dicen nuestros clientes",
+    "faq": "Preguntas frecuentes"
+  },
+  "differentiators": {
+    "strategy": {
+      "title": "Estrategia + herramientas operables",
+      "description": "No solo consultamos, implementamos soluciones que funcionan desde el día uno"
+    },
+    "maturity": {
+      "title": "Maduración digital continua",
+      "description": "Acompañamiento de largo plazo para evolucionar junto a tu negocio"
+    },
+    "metrics": {
+      "title": "Decisiones guiadas por métricas",
+      "description": "Analítica avanzada y tableros en tiempo real para tomar decisiones informadas"
+    }
+  },
+  "services": {
+    "ai": {
+      "title": "Agentes IA a medida",
+      "description": "Asistentes inteligentes personalizados para automatizar procesos críticos"
+    },
+    "automation": {
+      "title": "Orquestación y automatización",
+      "description": "n8n, RPA y flujos de trabajo que optimizan operaciones repetitivas"
+    },
+    "analytics": {
+      "title": "Analítica y tableros",
+      "description": "Visualización de datos que impulsa decisiones estratégicas"
+    },
+    "demos": {
+      "title": "Demos funcionales",
+      "description": "Prueba nuestras soluciones antes de invertir"
+    }
+  },
+  "demo": {
+    "email": {
+      "title": "Agente de IA multicanal",
+      "description": "Responde y envía correos masivos automáticamente. Entrenado para cobros, consultas y respuestas automáticas, pero adaptable a cualquier contexto empresarial.",
+      "descriptionFull": "Capaz de enviar correos masivos, SMS, WhatsApp, Telegram y gestionar interacciones en redes sociales.",
+      "demoOnly": "En este demo verás solo email",
+      "adaptable": "pero el agente está preparado para operar en todos los canales, redirigiendo a portal de pago o acceso según necesidad.",
+      "capabilities": {
+        "send": "Envío masivo inteligente",
+        "reply": "Auto-respuesta contextual",
+        "training": "Entrenamiento personalizado",
+        "tracking": "Seguimiento en tiempo real",
+        "analysis": "Análisis de sentimiento"
+      },
+      "capabilitiesLong": {
+        "send": "Envío de correos masivos",
+        "reply": "Respuesta automática contextual",
+        "training": "Aprendizaje personalizado",
+        "tracking": "Monitoreo de interacciones",
+        "analysis": "Análisis de respuestas"
+      },
+      "features": {
+        "document": "Document OCR",
+        "voice": "Voice transcription",
+        "calendar": "Calendar integration",
+        "email": "Email sending",
+        "stats": "Statistics generation"
+      },
+      "pipeline": {
+        "ingest": "Ingesta",
+        "classify": "Clasificación",
+        "generate": "Generación",
+        "send": "Envío",
+        "track": "Seguimiento"
+      },
+      "pipelineDesc": {
+        "ingest": "Recepción de datos",
+        "classify": "Clasificación inteligente",
+        "generate": "Generación de respuestas",
+        "send": "Envío de comunicaciones",
+        "track": "Seguimiento de resultados"
+      },
+      "states": {
+        "queued": "En cola",
+        "sent": "Enviado",
+        "replied": "Respondido",
+        "error": "Error"
+      }
+    },
+    "telegram": {
+      "title": "Asistente en Telegram",
+      "description": "Usuario envía foto de factura o nota de voz; el asistente extrae datos, agenda en calendario, envía correos y genera estadísticas.",
+      "capabilitiesLabel": "Capacidades",
+      "pipelineLabel": "Pipeline de Procesamiento",
+      "features": {
+        "ocr": "OCR de documentos",
+        "voice": "Transcripción de voz",
+        "calendar": "Integración con calendario",
+        "email": "Envío de emails",
+        "stats": "Generación de estadísticas"
+      },
+      "pipeline": {
+        "input": "OCR/ASR",
+        "parse": "Parsing",
+        "rules": "Reglas",
+        "integration": "Integración",
+        "report": "Reporte"
+      }
+    }
+  },
+  "about": {
+    "title": "¿Quiénes somos?",
+    "description": "Elyon es un socio de consultoría estratégica que integra inteligencia artificial, automatización y marketing digital en un marco de maduración empresarial continua, transformando cada proyecto en una ventaja competitiva sostenible"
+  },
+  "purpose": {
+    "title": "Nuestros pilares",
+    "items": {
+      "mission": {
+        "title": "Nuestro propósito superior",
+        "description": "Transformar negocios en ecosistemas inteligentes, sostenibles y globales."
+      },
+      "approach": {
+        "title": "Nuestro enfoque",
+        "description": "Generar una evolución completa, más allá de lo digital, hacia la sostenibilidad y escalabilidad global."
+      },
+      "maturity": {
+        "title": "La maduración empresarial",
+        "description": "Es un viaje continuo, no un proyecto puntual."
+      },
+      "partner": {
+        "title": "Elyon es tu socio",
+        "description": "Socio estratégico de largo plazo en crecimiento integral."
+      }
+    }
+  },
+  "valueProposition": {
+    "intro": "No solo digitalizamos procesos:",
+    "highlight": "revolucionamos modelos de negocio",
+    "description": "En Elyon integramos IA estratégica, automatización inteligente y marketing de alto impacto para convertir tu empresa en una máquina de crecimiento sostenible y resultados medibles.",
+    "ai": {
+      "title": "IA estratégica",
+      "description": "Implementamos inteligencia artificial que no solo automatiza, sino que optimiza decisiones estratégicas y genera insights accionables para tu negocio."
+    },
+    "automation": {
+      "title": "Automatización inteligente",
+      "description": "Liberamos a tu equipo de tareas repetitivas con sistemas que aprenden y mejoran continuamente, aumentando la eficiencia operativa exponencialmente."
+    },
+    "marketing": {
+      "title": "Marketing de alto impacto",
+      "description": "Estrategias data-driven que conectan con tu audiencia exacta en el momento preciso, convirtiendo leads en clientes de alto valor."
+    },
+    "conclusion": "Diseñamos el futuro de tu negocio con tecnología de vanguardia y estrategias que generan ventaja competitiva real."
+  },
+  "faq": {
+    "q1": {
+      "question": "¿Qué hace diferente a Elyon?",
+      "answer": "Combinamos consultoría estratégica con implementación tecnológica real. No solo diagnosticamos, ejecutamos."
+    },
+    "q2": {
+      "question": "¿Cuánto tiempo toma implementar una solución?",
+      "answer": "Depende de la complejidad, pero nuestras demos pueden estar operativas en 2-4 semanas."
+    },
+    "q3": {
+      "question": "¿Necesito conocimientos técnicos?",
+      "answer": "No. Nos encargamos de todo el proceso técnico y capacitamos a tu equipo."
+    },
+    "q4": {
+      "question": "¿Ofrecen soporte post-implementación?",
+      "answer": "Sí, ofrecemos acompañamiento continuo y actualizaciones según evolucionen tus necesidades."
+    }
+  },
+  "footer": {
+    "brand": "ELYON",
+    "subtitle": "Business Consulting",
+    "description": "Elyon integra IA, automatización y marketing digital para acelerar la maduración empresarial y convertirla en una ventaja competitiva sostenible",
+    "solutions": "Soluciones",
+    "about": "Acerca de",
+    "solutionsLabel": "Soluciones",
+    "demosLabel": "Demostraciones",
+    "aboutLabel": "Acerca de",
+    "resourcesLabel": "Recursos",
+    "follow": "Síguenos",
+    "copyright": "© 2025 Elyon Business Consulting. Todos los derechos reservados.",
+    "legal": "Aviso Legal",
+    "privacy": "Privacidad"
+  },
+  "contact": {
+    "title": "Hablemos de tu proyecto",
+    "name": "Nombre",
+    "email": "Email",
+    "message": "Mensaje",
+    "submit": "Enviar mensaje",
+    "orContact": "Elige tu forma preferida de contactarnos:",
+    "whatsappLabel": "Contáctanos",
+    "emailLabel": "Enviar email",
+    "success": "¡Mensaje enviado! Te contactaremos pronto.",
+    "error": "Error al enviar. Intenta nuevamente o usa WhatsApp."
+  }
+}

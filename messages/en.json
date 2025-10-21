@@ -25,7 +25,19 @@
     "subtitle": "Elyon integrates AI, automation, and digital marketing to accelerate business maturation and turn it into a sustainable competitive advantage",
     "description": "We transform companies through cutting-edge technology and measurable strategies",
     "brand": "Elyon Business Consulting",
-    "cta": "Talk to Elyon"
+    "cta": "Talk to Elyon",
+    "new": {
+      "mainTitle": "2025 and you still waste time on…",
+      "rotatingTexts": [
+        "repetitive messages",
+        "manual tasks",
+        "replying messages one by one",
+        "slow processes",
+        "uncontrolled follow-ups"
+      ],
+      "subtitle": "Let AI organize, respond, and optimize the simple stuff. You focus on what truly needs a human touch.",
+      "ctaDemo": "Try the demo"
+    }
   },
   "section": {
     "offerings": "What We Offer",
@@ -141,7 +153,7 @@
   },
   "about": {
     "title": "Who are we?",
-    "description": "Elyon is a strategic consulting partner that integrates artificial intelligence, automation and digital marketing in a framework of continuous business maturation, transforming each project into a sustainable competitive advantage"
+    "description": "Elyon Business Consulting is a strategic consulting partner that integrates artificial intelligence, automation and digital marketing in a framework of continuous business maturation, transforming each project into a sustainable competitive advantage"
   },
   "purpose": {
     "title": "Our Pillars",
